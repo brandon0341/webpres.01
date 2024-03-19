@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://www.openaccessgovernment.org/wp-content/uploads/2023/10/iStock-1394287943-scaled.jpg');
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: white;
+}
+.intro{ 
+    width: 400px;
+    height: auto;
+    border: hidden;
+    margin-left: 20%;
+    margin-top: 20%;
+    left: 28%;
+    word-spacing: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 60px 62px -2px,
+    rgba(0, 0, 0, 0.3) 0px 83px 57px -3px;
+}
+.intro .prof{
+    font-size: 500%;
+}
+.intro button{
+    width: 80px;
+    height: 30px;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+.intro:hover{
+    transform: scale(1.1, 1.1);
+    filter: drop-shadow(10px 5px 10px white black);
+}
+.intro:hover > body:not(:hover){
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+}
+.pro{
+    border: hidden;
+    margin-top: 30%;
+    margin-left: 45%;
+    font-size: 300%;
+}
+.one{
+    margin-top: 1%;
+    border: hidden;
+    width: 500px;
+    height: 200px;
+}
+.two{
+    margin-top: -3.9%;
+    margin-left: 35%;
+    border: hidden;
+    width: 500px;
+    height: 200px;
+}
+.tree{
+    margin-top: -4%;
+    margin-left: 70%;
+    border: hidden;
+    width: 400px;
+    height: 200px;
+}
+.a{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -3%;
+}
+.b{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 35%;
+}
+.c{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 70%;
+}
